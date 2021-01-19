@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Maks\Desktop\морской 2\весь\Project3\Project3\Source.cpp(22,14): warning C4838:  преобразование из "int" в "SHORT" требует сужающего преобразования
+C:\Users\Maks\Desktop\морской 2\весь\Project3\Project3\Source.cpp(22,17): warning C4838:  преобразование из "int" в "SHORT" требует сужающего преобразования
+C:\Users\Maks\Desktop\морской 2\весь\Project3\Project3\Source.cpp(781,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Project3.vcxproj -> C:\Users\Maks\Desktop\морской 2\весь\Project3\Debug\Project3.exe

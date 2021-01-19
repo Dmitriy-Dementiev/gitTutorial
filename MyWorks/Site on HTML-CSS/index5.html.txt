@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatiable"content="ie=edge">
+<title>My HTML Exam</title>
+<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+   <div class="head"><a class="ahead" href="1index.html"><button> Main page</button></a>
+   <a class="ahead" href="index2.html"><button>Second page</button></a>
+   <a class="ahead" href="index3.html"><button>Third page</button></a>
+   <a class="ahead" href="index4.html"><button>Fourth page</button></a>
+   <a class="ahead" href="index5.html"><button>Fifth page</button></a></div>
+ <header>
+   <div id="logo" onclick="slowScroll('#top')">
+     <span>BusinessOC</span>
+   </div>
+   <div id="about">
+      <a href="#" title="Opportunities" onclick="slowScroll('#main')">Opportunities</a>
+      <a href="#" onclick="slowScroll"('#overiew')" title="Advantages">Advantages</a>
+      <a href="#" onclick="slowScroll"('#contacts')" title="Contacts">Contacts</a>
+      <a href="#" onclick="slowScroll"('#faq')" title="Answers on questions">FAQ</a>
+   </div>
+ </header>
+
+<div id="top">
+  <h1>business ideas for beginners</h1>
+  <h3>How to open a business from scratch√</h3>
+</div>
+
+<div id="main">
+  <div class="intro">
+    <h2>Business Opening Courses will help you become rich!</h2>
+    <span>A wide selection of everything that will help you move forward</span>
+  </div>
+  <div class="text">
+     <span><h3><strong>What are Business courses for?</strong></h3></span>
+Business courses make it possible to systematize and streamline such an integral area of activity
+of any company as additional training and staff development.Any reputable company spends a considerable part
+of time and money,maintain its human resources at the proper proffesional level.
+This is a real chance,when learning, not to spend too much time - yours and your employees - on receiving large volumes
+of unnecessary information.Training programs are formed taking into account the constantly changing environment,are
+adjusted based on experience so that in the end you get only the most relevant data,the most effective exercises and
+the best results   
+        </div>
+       </div>
+
+  <div id="overview">
+     <h2>Building a future career</h2>
+     <h4>We will help you become</h4>
+
+  <div class="img">
+   <img src="https://image.freepik.com/free-photo/_1423-119.jpg" alt="">
+   <span>Financial Administrator</span>
+  </div>
+  <div class="img">
+   <img src="https://image.freepik.com/free-photo/positive-smiling-meeting-office-senior_1262-2282.jpg" alt="">
+   <span>Senior Business Manager</span>
+  </div>
+  <div class="img">
+   <img src="https://fakty.ua/photos/article/23/80/238035.jpg" alt="">
+   <span>Credit Manager</span>
+  </div>
+  <div class="img">
+   <img src="https://golosinfo.com/_nw/121/39796506.jpg" alt="">
+   <span>Financial Manager</span>
+  </div>
+ </div>
+
+<div id="contacts">
+ <center><h5>Feedback</h5></center>
+ <form id="form_input">
+  <label for="name">Name <span>*</span></label><br>
+  <input type="text" placeholder="Enter your name" name="name" id="name"><br>
+  <label for="email">Your mail <span>*</span></label><br>
+  <input type="email" placeholder="Enter your email" name="email" id="email"><br>
+  <label for="message">Message <span>*</span></label><br>
+  <input type="message" placeholder="Enter your message" name="message" id="message"><br>
+  <div id="mess_send" class="btn">Send</div>
+ </form>
+  </div>
+
+
+<div id="faq">
+  <div>
+    <span class="title">Payment</span><br>
+    <span class="heading">Payment through the online store</span>
+    <p>An online store where you can pay with an international
+       Visa,MasterCard, or other payment ssystem plastic card,
+       uses the acquiring service.</p>
+    <span class="heading">Payment process</span>
+    <p>The payment process is carried out through an 
+       acquiring bank,which can independently carry out such operations.
+       This is an electronic system that provides interaction between
+       the online store,the partner bank(acquirer), the international
+       payment system of the Ministry of Railways and the issuing-bank
+       that issued the card.</p>
+    <span class="heading">The risks</span>
+    <p>As you can see, the process includes multi-stage authorization.
+       This ensures that only your order amount and bank commission,if any,
+       will be debited from your card.
+       Since the calculation is carried out through a secure form of payment,
+       and the information is transmitted through closed communication channels,
+       you can be sure of complete confidentiality.Neither online store managers
+       nor online hackers will be able to see your billing information.
+       .</p>
+  </div>
+  <div>
+     <span class="title">After graduation</span><br>
+     <span class="heading">What awaits you?</span>
+     <p>We have prepared for future graduates of American universities information 
+        on what positions they can apply for professionals in the Finance and Business 
+        sector with additional information about the average earnings of specialists. 
+      .</p>
+     <span class="heading">Information</span>
+     <p>This information was taken from the American Business School online resource,
+        which annually conducts research and publishes an overview of the most popular 
+        professions in America,etc..</p>
+     <span class="heading">Company privacy policy "Business Opening Course"</span>
+     <p>We recognize the importance of privacy. 
+       This document describes what personal information we receive and collect when you use the site. 
+       We hope that this information will help you make informed decisions
+       regarding the personal information we provide.</p>
+   </div>
+   <div>
+     <span class="title">Guarantees</span><br>
+     <span class="heading">What guarantees are there?</span>
+     <p>After the end of our courses, you will be available 
+        to the profession in the courses of which you studied.
+        And the most important thing is the knowledge that you will get from us.</p>
+     <span class="heading">Diplomas and certificates</span>
+     <p>For completing all the lessons of the course,
+        a company certificate is issued from Business Opening Course.
+        The knowledge gained in the course will help prepare for the CIMA P1 and CIMA P2
+        exam - two mandatory exams for obtaining a CIMA certificate.</p>
+     <span class="heading">Company working with us</span>
+     <p>We work with a very large company that helps our graduates
+        to find decent and well-paid jobs.
+        The American Business Course has already graduated more than 15,000+ students
+        who already work in a large company with a high position.</p>
+   </div>
+ </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+   function slowScroll(id) {
+     $('html,body').animate({
+       scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+
+$(document).on("scroll", function() {
+  if($(window).scrollTop() === 0)
+   $("header").removeClass("fixed");
+else
+   $("header").attr("class","fixed");
+
+
+
+</script>
+

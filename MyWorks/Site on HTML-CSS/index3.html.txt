@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatiable"content="ie=edge">
+<title>My HTML Exam</title>
+<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+   <div class="head"> <a class="ahead" href="1index.html"><button> Main page</button></a>
+   <a class="ahead" href="index2.html"><button>Second page</button></a>
+   <a class="ahead" href="index3.html"><button>Third page</button></a>
+   <a class="ahead" href="index4.html"><button>Fourth page</button></a>
+   <a class="ahead" href="index5.html"><button>Fifth page</button></a></div>
+ <header>
+   <div id="logo" onclick="slowScroll('#top')">
+     <span>BusinessOC</span>
+   </div>
+   <div id="about">
+      <a href="#" title="Opportunities" onclick="slowScroll('#main')">Opportunities</a>
+      <a href="#" onclick="slowScroll"('#overiew')" title="Advantages">Advantages</a>
+      <a href="#" onclick="slowScroll"('#contacts')" title="Contacts">Contacts</a>
+      <a href="#" onclick="slowScroll"('#faq')" title="Answers on questions">FAQ</a>
+   </div>
+ </header>
+
+<div id="top">
+  <h1>Third page</h1>
+  <h3>We have all the necessary and useful information</h3>
+</div>
+
+<div id="main">
+  <div class="intro">
+    <h2>What is investing<big>Ã</big></h2>
+    <span>and how do investments work</span>
+  </div>
+  <div class="text">
+     <span><h3><strong>How will investing make you rich?</strong></h3></span>
+  Investing is an economic activity, which involves a long-term investment 
+  of capital with the goal of making a profit.
+  Investing is an integral part of the modern economy.
+  In addition to ensuring proper cash flow, thanks to investments, 
+  all sectors of the economy are actively developing. 
+  For a novice entrepreneur or for a group of people united by a desire
+  to create a new project that will benefit humanity and profit for the owners, 
+  this is a chance to refuse credit. Unlike a loan, which will have to be repaid, 
+  even if the venture is unsuccessful, the investment fund received cannot be returned. 
+  The investor receives dividends from the company's income or part of the proceeds from the sale of money.
+        </div>
+       </div>
+
+  <div id="overview">
+     <h2>What are the types of investments</h2>
+     <h4>A novice investor should initially know what investments are:</h4>
+
+  <div class="img">
+   <img src="https://gazetaingush.ru/sites/default/files/styles/juicebox_small/public/news/20170504-v-ingushetii-za-8-let-obem-investiciy-vyros-do-82-mlrd-rubley/zzzzzzzzzzzzzz.jpg?itok=9linXJUU" alt="">
+   <span>Bank Deposit Account</span>
+<p>Deposits are an indirect investment. The depositor provides his money to the bank, and the bank,
+   in turn, has the opportunity to pool capital and invest in large projects and enterprises.
+   At the same time, the investor receives a low, fixed interest rate for capital growth for placing a deposit. 
+   To invest in a bank account, you do not need to have expert knowledge in the field of finance. 
+   It is enough to choose a bank with individually suitable conditions that can ensure reliable preservation of funds.
+  </div>
+  <div class="img">
+   <img src="https://lh3.googleusercontent.com/proxy/2zH9LKKGvJbLDsUF-3KjYtKP5yfBQ9kQrZZGf3OyAe2Xp2WuGBZFgVATq2hPuV6slWRS6pdeNHUGDzTV8RZg1eemPy9MwxF0l4s9bNaMSXWFgXVXdBK21f8" alt="">
+   <span>Real estate investing</span>
+<p>By purchasing real estate during the construction phase or apartments and land in areas
+   and regions where the cost per square meter is constantly growing, you can also make good money.
+   In this case, the income will be the difference between the cost at the time of purchase and at the time of sale.
+  </div>
+  <div class="img">
+   <img src="https://antikor.com.ua/foto/articles_foto/2019/02/26/288966.jpg" alt="">
+   <span>Investing in your own business</span>
+<p>Investing in the development of your own company allows you to get all the profit from the business. 
+   In this case, the profit will depend solely on the investor.
+  </div>
+  <div class="img">
+   <img src="https://ua-retail.com/wp-content/uploads/2019/07/%D0%B3%D1%80%D0%B8%D0%B2%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80-%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8-640x360.jpg" alt="">
+   <span>Investing in currencies</span>
+<p>Investments in foreign currency are a large event that includes such mechanisms of action 
+   as intervals of intervention, counterparties and many others. Using these mechanisms
+   of investing in foreign currency, the exchange rate of a certain currency is adjusted,
+   and many investors earn on this.
+  </div>
+ </div>
+
+<div id="contacts">
+ <center><h5>Feedback</h5></center>
+ <form id="form_input">
+  <label for="name">Name <span>*</span></label><br>
+  <input type="text" placeholder="Enter your name" name="name" id="name"><br>
+  <label for="email">Your mail <span>*</span></label><br>
+  <input type="email" placeholder="Enter your email" name="email" id="email"><br>
+  <label for="message">Message <span>*</span></label><br>
+  <input type="message" placeholder="Enter your message" name="message" id="message"><br>
+  <div id="mess_send" class="btn">Send</div>
+ </form>
+  </div>
+
+
+<div id="faq">
+  <div>
+    <span class="title">Payment</span><br>
+    <span class="heading">Payment through the online store</span>
+    <p>An online store where you can pay with an international
+       Visa,MasterCard, or other payment ssystem plastic card,
+       uses the acquiring service.</p>
+    <span class="heading">Payment process</span>
+    <p>The payment process is carried out through an 
+       acquiring bank,which can independently carry out such operations.
+       This is an electronic system that provides interaction between
+       the online store,the partner bank(acquirer), the international
+       payment system of the Ministry of Railways and the issuing-bank
+       that issued the card.</p>
+    <span class="heading">The risks</span>
+    <p>As you can see, the process includes multi-stage authorization.
+       This ensures that only your order amount and bank commission,if any,
+       will be debited from your card.
+       Since the calculation is carried out through a secure form of payment,
+       and the information is transmitted through closed communication channels,
+       you can be sure of complete confidentiality.Neither online store managers
+       nor online hackers will be able to see your billing information.
+       .</p>
+  </div>
+  <div>
+     <span class="title">After graduation</span><br>
+     <span class="heading">What awaits you?</span>
+     <p>We have prepared for future graduates of American universities information 
+        on what positions they can apply for professionals in the Finance and Business 
+        sector with additional information about the average earnings of specialists. 
+      .</p>
+     <span class="heading">Information</span>
+     <p>This information was taken from the American Business School online resource,
+        which annually conducts research and publishes an overview of the most popular 
+        professions in America,etc..</p>
+     <span class="heading">Company privacy policy "Business Opening Course"</span>
+     <p>We recognize the importance of privacy. 
+       This document describes what personal information we receive and collect when you use the site. 
+       We hope that this information will help you make informed decisions
+       regarding the personal information we provide.</p>
+   </div>
+   <div>
+     <span class="title">Guarantees</span><br>
+     <span class="heading">What guarantees are there?</span>
+     <p>After the end of our courses, you will be available 
+        to the profession in the courses of which you studied.
+        And the most important thing is the knowledge that you will get from us.</p>
+     <span class="heading">Diplomas and certificates</span>
+     <p>For completing all the lessons of the course,
+        a company certificate is issued from Business Opening Course.
+        The knowledge gained in the course will help prepare for the CIMA P1 and CIMA P2
+        exam - two mandatory exams for obtaining a CIMA certificate.</p>
+     <span class="heading">Company working with us</span>
+     <p>We work with a very large company that helps our graduates
+        to find decent and well-paid jobs.
+        The American Business Course has already graduated more than 15,000+ students
+        who already work in a large company with a high position.</p>
+   </div>
+ </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+   function slowScroll(id) {
+     $('html,body').animate({
+       scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+
+$(document).on("scroll", function() {
+  if($(window).scrollTop() === 0)
+   $("header").removeClass("fixed");
+else
+   $("header").attr("class","fixed");
+
+.0
+
+</script>

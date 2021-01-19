@@ -1,0 +1,16 @@
+.movies{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie{
+    width: 200px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.movie>img{
+	float:left;
+	width:50%;
+}
